@@ -1,9 +1,5 @@
 .navbar {
-<<<<<<< HEAD
-  background-color: rgb(56, 69, 218) !important;
-=======
-  background-color: rgb(0, 159, 34) !important;
->>>>>>> 24ae6484cc59eb5bba353053d5ceec13e2b85ab7
+  background-color: blue !important;
 }
 
 .navbar a {
