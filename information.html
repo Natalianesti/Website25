@@ -1,36 +1,74 @@
 <!DOCTYPE html>
 <html>
-<head>
-    <title>Λίγα λόγια για τα ταξίδια μας!</title>
-    <link rel="icon" href="pegasus_sneakers.png" type="image/x-icon" />
-
-    <link rel="stylesheet" type="text/css" href="style.css" />
-    <title>Λίγα λόγια για τα ταξίδια μας!<title>
-</head>
-<body>
-    <ul>
-      <li><a class="active" href="index.html">Home</a></li>
-      <li><a href="information.html">information</a></li>
-      <li class="nav-item dropdown">
-        <a
-          class="nav-link dropdown-toggle"
-          href="#"
-          role="button"
-          data-bs-toggle="dropdown"
+  <head>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+      <div class="container-fluid">
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
           aria-expanded="false"
+          aria-label="Toggle navigation"
         >
-          Πακέτα
-        </a>
-        <ul class="dropdown-menu">
-          <li><a class="dropdown-item" href="#">Δωδεκανησα</a></li>
-          <li><a class="dropdown-item" href="#">Επτάνησα</a></li>
-          <li><a class="dropdown-item" href="#">Κυκλάδες</a></li>
-          <li><hr class="dropdown-divider" /></li>
-          <li>
-            <a class="dropdown-item" href="#">Something else here</a>
-          </li>
-        </ul>
-    <h1>Εδώ και μια δεκαετία, η ταξιδιωτική εταιρεία μας είναι συνώνυμη με την εξερεύνηση των ομορφιών της Ελλάδας. Ειδικευόμαστε στις κρουαζιέρες στα μαγευτικά Δωδεκάνησα, τα ειδυλλιακά Επτάνησα και τις συναρπαστικές Κυκλάδες, προσφέροντας μια αξέχαστη εμπειρία σε κάθε ταξιδιώτη.
-Τα ταξίδια μας, εφόσον οι καιρικές συνθήκες το επιτρέπουν, πραγματοποιούνται καθ' όλη τη διάρκεια του χρόνου, δίνοντάς σας την ευκαιρία να ανακαλύψετε τις ομορφιές της Ελλάδας σε κάθε εποχή. Τα πακέτα μας είναι σχεδιασμένα για να καλύπτουν όλες τις ανάγκες σας, περιλαμβάνοντας τη διαμονή σε επιλεγμένα καταλύματα, τη μετακίνηση με άνετα και ασφαλή μέσα, καθώς και την είσοδό σας σε μουσεία, πάρκα και αξιοθέατα, για να απολαύσετε στο έπακρο κάθε προορισμό.
-Η ομάδα μας, αποτελούμενη από έμπειρους επαγγελματίες, είναι αφοσιωμένη στην παροχή υψηλής ποιότητας υπηρεσιών και στην εξασφάλιση μιας μοναδικής ταξιδιωτικής εμπειρίας. Στόχος μας είναι να σας προσφέρουμε ένα ταξίδι που θα σας μείνει αξέχαστο, γεμάτο όμορφες στιγμές και μοναδικές αναμνήσεις.
-</h1>
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="active" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a href="information.html">Information</a>
+            </li>
+            <li class="nav-item">
+              <a href="contact.html">Contact</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Πακέτα
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Δωδεκανησα</a></li>
+                <li><a class="dropdown-item" href="#">Επτάνησα</a></li>
+                <li><a class="dropdown-item" href="#">Κυκλάδες</a></li>
+                <li><hr class="dropdown-divider" /></li>
+                <li>
+                  <a class="dropdown-item" href="#">Something else here</a>
+                </li>
+              </ul>
+            </li>
+          </ul>
+          <form class="d-flex" role="search">
+            <input
+              class="form-control me-2"
+              type="search"
+              placeholder="Search"
+              aria-label="Search"
+            />
+            <button class="btn btn-outline-success" type="submit">
+              Search
+            </button>
+          </form>
+        </div>
+      </div>
+    </nav>
+    <p></p>
+  </body>
+</html>
