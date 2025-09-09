@@ -1,5 +1,5 @@
 .navbar {
-  background-color: rgb(26, 26, 171) !important;
+  background-color: rgb(27, 159, 0) !important;
 }
 
 .navbar a {
@@ -8,9 +8,3 @@
 
 .navbar .dropdown-menu a {
   color: black !important;
-}
-
-#eco {
-  width: 400px;
-  height: 400px;
-}
