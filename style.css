@@ -156,3 +156,10 @@ div.desc {
 .intro {
   font-size: 22px;
 }
+.carousel-container {
+  padding-right: 150px;
+  padding-left: 150px;
+}
+.carousel-inner {
+  height: 400px;
+}
