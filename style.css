@@ -163,3 +163,10 @@ div.desc {
 .carousel-inner {
   height: 400px;
 }
+.title-container {
+  display: flex;
+}
+
+.title-container {
+  justify-content: center;
+}
